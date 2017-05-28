@@ -16,6 +16,10 @@ a{
     transition: all .3;
 }
 
+span.green{
+    color: #1ac056;
+}
+
 
 /*Main nav style - START*/
 
