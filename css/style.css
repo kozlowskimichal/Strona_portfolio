@@ -3,12 +3,49 @@
 * {
     box-sizing: border-box;
     
-    
 }
 
 body {
  font-family: 'Lato', sans-serif;
     color: #291f1a;
+    margin: 0;
+    background-color: antiquewhite /* background roboczy */
 }
 
-/*General styles -START*/
+
+/*Main nav style - START*/
+
+/*General styles -STOP*/
+
+/*Main nav styles - START*/
+
+#main-nav {
+    background-color: #fff;
+}
+
+
+#main-nav ul {
+    margin: 0;
+    text-align: right;
+}
+
+#main-nav ul li {
+    display: inline-block;
+    padding: 25px;
+}
+
+
+#main-nav ul li a {
+    text-decoration: none;
+    color: #1ac056;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+
+#main-nav ul li a:hover {
+    color: #291f1a;
+
+}
+
+
