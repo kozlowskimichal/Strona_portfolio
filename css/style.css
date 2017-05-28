@@ -12,6 +12,10 @@ body {
     background-color: antiquewhite /* background roboczy */
 }
 
+a{
+    transition: all .3;
+}
+
 
 /*Main nav style - START*/
 
