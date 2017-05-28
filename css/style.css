@@ -18,6 +18,7 @@ a{
 
 span.green{
     color: #1ac056;
+    font-weight: 400;
 }
 
 
@@ -26,6 +27,9 @@ span.green{
 
 #main-nav {
     background-color: #fff;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
 }
 
 
@@ -78,6 +82,19 @@ span.green{
     right: 0; /*lub width: 100%; */
     top: 50%;
     transform: translateY(-50%);
+}
+
+
+#main-header .header-caption h1{
+    font-size: 4em;
+    font-weight: 300;
+    
+}
+
+#main-header .header-caption h2{
+    font-size: 2em;
+    font-weight: 300;
+    
 }
 
 
