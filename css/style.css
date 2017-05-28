@@ -55,3 +55,35 @@ span.green{
 
 /*General styles -STOP*/
 
+/*Main header styles - START*/
+
+#main-header {
+    background-image: 
+    url(../img/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+    
+}
+
+
+#main-header .header-caption{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    text-align: center;
+    
+    left: 0;
+    right: 0; /*lub width: 100%; */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+
+/*Main header styles - STOP*/
+
+
+/*General styles -STOP*/
