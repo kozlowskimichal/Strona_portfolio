@@ -198,4 +198,23 @@ span.green{
     position: relative;
 
 }
+
+#portfolio .portfolio-items .portfolio-item .item-mask{
+    background-color: rgba(42, 61, 79, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    font-size: initial;
+}
+
+#portfolio .portfolio-items .portfolio-item .item-mask a{
+    color: white;
+}
+
+#portfolio .portfolio-items .portfolio-item .item-mask:hover{
+    opacity: 1;
+}
+
 /*Section Portfolio Styles - STOP*/
