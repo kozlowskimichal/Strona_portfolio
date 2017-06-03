@@ -9,7 +9,7 @@ body {
     font-family: 'Lato', sans-serif;
     color: #291f1a;
     margin: 0;
-    background-color: antiquewhite /* background roboczy */
+    background-color: antiquewhite/* background roboczy */
 }
 
 
@@ -143,3 +143,28 @@ span.green{
 
 
 /*General styles -STOP*/
+
+
+/*About Section styles - STOP */
+
+
+/*Section Skills Styles - START */
+
+#skills > p {
+    text-align: center;
+    font-weight: 300;
+}
+
+#skills div#skills-icons {
+    text-align: center;
+}
+
+#skills #skills-icons figure{
+    display: inline-block;
+}
+
+#skills #skills-icon figure img{
+    margin-bottom: 15px;
+}
+
+/*Section Skills Styles - STOP */
