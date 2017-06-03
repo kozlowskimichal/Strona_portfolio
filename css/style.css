@@ -21,6 +21,10 @@ a{
     transition: all .3;
 }
 
+section {
+    padding: 50px 80px 90px 80px;
+}
+
 span.green{
     color: #1ac056;
     font-weight: 400;
@@ -305,3 +309,48 @@ span.green{
     float: left;
     margin-top: 100px;
 }
+
+#contact .contact-form form input,
+#contact .contact-form form textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #2b4a64;
+    border: #2b4a64 0px;
+    color: #fff;
+    
+}
+
+
+#contact .contact-form form input:focus,
+#contact .contact-form form textarea:focus {
+    background-color: #426684;
+}
+
+#contact .contact-form form input[type="submit"] {
+    background-color: #1ac056;
+    color: #fff;
+    width: auto;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px 30px;
+    float: right;
+    border: 1px #1ac056 solid;
+}
+
+#contact .contact-form form input[type=submit]:hover {
+    background-color: #fff;
+    color: #1ac056;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #142634;
+    color: #fff;
+    padding: 0 80px;
+}
+
+footer p {
+    margin: 0;
+}
+/*Section Contact Styles - STOP*/
