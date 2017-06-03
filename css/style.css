@@ -9,7 +9,7 @@ body {
     font-family: 'Lato', sans-serif;
     color: #291f1a;
     margin: 0;
-    background-color: antiquewhite/* background roboczy */
+    background-color: cyan/* background roboczy */
 }
 
 
@@ -142,9 +142,6 @@ span.green{
 }
 
 
-/*General styles -STOP*/
-
-
 /*About Section styles - STOP */
 
 
@@ -168,3 +165,21 @@ span.green{
 }
 
 /*Section Skills Styles - STOP */
+
+/*Section Portfolio Styles - START */
+
+#portfolio #portfolio-item-1 {
+    background-image: url(../img/portfolio1.jpg);
+}
+
+
+#portfolio #portfolio-item-2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+
+
+
+#portfolio #portfolio-item-3 {
+    background-image: url(../img/portfolio3.jpg);
+}
+/*Section Portfolio Styles - STOP*/
