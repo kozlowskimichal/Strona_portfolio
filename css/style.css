@@ -169,7 +169,7 @@ span.green{
 /*Section Portfolio Styles - START */
 
 #portfolio #portfolio-item-1 {
-    background-image: url(../img/portfolio.jpg);
+    background-image: url(../img/portfolio1.jpg);
 }
 
 #portfolio #portfolio-item-2 {
@@ -180,6 +180,22 @@ span.green{
 #portfolio #portfolio-item-3 {
     background-image: url(../img/portfolio3.jpg);
 
+}
 
+#portfolio .portfolio-items {
+    text-align: center;
+    font-size: 0;
+}
 
+#portfolio .portfolio-items .portfolio-item {
+
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 33.3333%;
+    position: relative;
+
+}
 /*Section Portfolio Styles - STOP*/
