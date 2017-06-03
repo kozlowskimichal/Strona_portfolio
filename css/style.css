@@ -169,17 +169,17 @@ span.green{
 /*Section Portfolio Styles - START */
 
 #portfolio #portfolio-item-1 {
-    background-image: url(../img/portfolio1.jpg);
+    background-image: url(../img/portfolio.jpg);
 }
-
 
 #portfolio #portfolio-item-2 {
     background-image: url(../img/portfolio2.jpg);
 }
 
 
-
 #portfolio #portfolio-item-3 {
     background-image: url(../img/portfolio3.jpg);
-}
+
+
+
 /*Section Portfolio Styles - STOP*/
